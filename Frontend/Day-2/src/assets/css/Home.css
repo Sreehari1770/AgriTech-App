@@ -1,0 +1,30 @@
+.bg-home{
+    padding-top: 2%;
+    background-image:url("../images/Field.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+  }
+  .center-home{
+    text-align: center;
+    color:white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    font-family: Arial
+  }
+  
+  .wel-text{
+    font-size: 50px;
+    padding-bottom:2%;
+  }
+  .wel-text-1{
+    font-size: 17px;
+    padding-bottom:1%;
+  }
+  .wel-text-2{
+    padding-bottom: 1%;
+  }
+  .btn-home{
+    color: white;
+  }
