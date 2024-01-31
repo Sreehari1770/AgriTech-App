@@ -1,0 +1,80 @@
+.admin-dashboard {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    padding-top: 5%;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .table-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f5f5f5;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actions button {
+    margin-right: 8px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background-color: #f0f0f0;
+  }
+  .widgetadb {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .widget-box {
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .widget-box h3 {
+    margin-bottom: 10px;
+}

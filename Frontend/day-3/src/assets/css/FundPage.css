@@ -1,0 +1,41 @@
+/* FundPage.css */
+
+/* Page styles */
+.fund-page {
+  padding-top: 7%;
+    text-align: center;
+  }
+  
+  /* Table styles */
+  .fund-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Table header styles */
+  .fund-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table body styles */
+  .fund-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Alternating row colors */
+  .fund-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styles */
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
