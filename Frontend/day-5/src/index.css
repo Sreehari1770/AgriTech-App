@@ -1,0 +1,12 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg-color{
+  background-color: #6B8E23 !important;
+  position: fixed;
+  z-index: 0;
+  /* padding-bottom: 15%; */
+}
+
