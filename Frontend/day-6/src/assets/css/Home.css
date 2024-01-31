@@ -1,0 +1,37 @@
+.bg-home{
+    padding-top: 2%;
+    background-image:url("../images/Field.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+  }
+  .center-home{
+    /* background-color: rgb(0,0,0); Fallback color */
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    /* border: 5px solid #f1f1f1; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 700px;
+    padding: 20px;
+    /* text-align: center; */
+    font-family: Arial
+  }
+  
+  .wel-text{
+    font-size: 50px;
+    padding-bottom:2%;
+  }
+  .wel-text-1{
+    font-size: 17px;
+    padding-bottom:1%;
+  }
+  .wel-text-2{
+    padding-bottom: 1%;
+  }
+  .btn-home{
+    color: white !important;
+    border: 3px solid white !important;
+  }
