@@ -1,0 +1,111 @@
+.card-loan{
+    padding-top: 35px;
+    padding-bottom: 45px;
+    padding-right: 45px;
+    padding-left: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.loan-options h4{
+    padding-top: 5%;
+    font-size: 5vh;
+    padding-left: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loan-options h3{
+    padding-top: 2%;
+    font-size: 5vh;
+    padding-left: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* LoanPage.css */
+
+/* Styles for the search bar */
+.search-bar {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .search-bar label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 15px;
+    /* float: left; */
+  }
+  
+  .search-bar input[type="text"] {
+    width: 70%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    /* border-bottom: 2px solid #ddd; */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+  }
+  
+  
+  
+  /* Styles for the search button */
+  .search-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  /* CSS for the loan details div */
+.loan-details {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* margin-top: 10px; */
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width: 50%;
+  text-align: center;
+  /* padding-left: 15%; */
+  margin-left: 22%;
+}
+
+/* Conditional styling based on the status */
+.loan-details[data-status="pending"] {
+  background-color: #ccc; /* Gray background for pending status */
+}
+
+.loan-details[data-status="approved"] {
+  background-color: #8bc34a; /* Green background for accepted status */
+}
+
+.loan-details[data-status="rejected"] {
+  background-color: #f44336; /* Red background for rejected status */
+}
+/* Header style */
+.loan-details h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Content style */
+.loan-details p {
+  margin: 8px 0;
+}
+
+/* Animation on hover */
+.loan-details:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+  
